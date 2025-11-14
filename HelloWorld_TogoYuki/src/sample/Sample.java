@@ -12,6 +12,7 @@ public class Sample {
 		String hobby= "映画鑑賞";
 		
 		/*
+		 * 
 		 * 自己紹介文を出力する処理
 		 */
 		System.out.println("私の名前は"+ name + "です。");
