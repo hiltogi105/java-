@@ -98,8 +98,7 @@ public class Question1 {
 		System.out.println(""); 
 		
 		/* Q10 int 型の変数 num に 50 を代入
-		 * num を String 型に変換し、"得点: 50点" の形で出力
-		 */
+		 * num を String 型に変換し、"得点: 50点" の形で出力*/
 		int num = 50;
 		System.out.println("得点：" + Integer.toString(num) + "点");
 		
