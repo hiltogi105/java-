@@ -7,7 +7,9 @@ public class Sample {
 		
 		// 氏名
 		String name = "山田　花子";
+		// 年齢
 		int age = 25;
+		// 趣味
 		String hobby = "映画鑑賞";
 		
 		/*
