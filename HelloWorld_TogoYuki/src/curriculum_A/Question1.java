@@ -43,8 +43,7 @@ public class Question1 {
 		
 		/* Q4 name という String型の変数 を宣言し
 		 * その変数に "山田太郎" という値を代入してください。
-		 * name変数を使用してコンソールに こんにちは、山田太郎さん! と出力してください。
-		 */
+		 * name変数を使用してコンソールに こんにちは、山田太郎さん! と出力してください。*/
 		String name = "山田太郎";
 		System.out.println("こんにちは、" + name + "さん！");
 		
@@ -53,8 +52,7 @@ public class Question1 {
 		
 		/* Q5 age という int型の変数 を宣言し
 		 * その変数に 25 を代入してください。
-		 * age変数を使用してコンソールに 年齢: 25歳 という出力してください。
-		 */
+		 * age変数を使用してコンソールに 年齢: 25歳 という出力してください。*/
 		int age = 25;
 		System.out.println("年齢：" + age + "歳");
 		
@@ -63,8 +61,7 @@ public class Question1 {
 		
 		/* Q6 num1 という int型の変数 を宣言し、10 を代入
 		 * num2 という int型の変数 を宣言し、5 を代入
-		 * num1 と num2 を足した結果を sum という変数に代入し、コンソールに出力してください。
-		 */
+		 * num1 と num2 を足した結果を sum という変数に代入し、コンソールに出力してください。*/
 		int num1 = 10;
 		int num2 = 5;
 		int sum = num1 + num2;
@@ -75,8 +72,7 @@ public class Question1 {
 		
 		/* Q7score という int型の変数 を宣言し、80 を代入
 		 * score に 20 を加えて、更新する
-		 * 最終スコア: 100 　をscoreを使用してコンソールに出力してください。
-		 */
+		 * 最終スコア: 100 　をscoreを使用してコンソールに出力してください。 */
 		int score = 80;
 		score += 20;
 		System.out.println("最終スコア：" + score);
@@ -85,9 +81,7 @@ public class Question1 {
 		System.out.println(""); 
 		
 		/* Q8 price という double型の変数 を宣言し、99.99 を代入
-		 * price を int型 に変換し、整数価格: 99 とコンソールに出力してください。
-		 */
-		
+		 * price を int型 に変換し、整数価格: 99 とコンソールに出力してください。*/
 		double price = 99.99;
 		System.out.println("整数価格：" + (int)price);
 
@@ -96,8 +90,7 @@ public class Question1 {
 		
 		/* Q9 String 型の変数 numStr に "123" を代入
 		 * numStr を int 型に変換し、
-		 * 変換後の値: の後ろにnumStr + 10 した結果をコンソールに出力してください。
-		 */
+		 * 変換後の値: の後ろにnumStr + 10 した結果をコンソールに出力してください。*/
 		String numStr = "123";
 		System.out.println(Integer.valueOf(numStr) + 10);
 		
@@ -117,9 +110,7 @@ public class Question1 {
 		 * int 型の変数 a に 10 を代入
 		 * int 型の変数 b に 20 を代入
 		 * a が b より小さいかどうかを boolean 変数 result に代入
-		 * result の値を出力
-		 */
-		
+		 * result の値を出力*/
 		int a = 10;
 		int b = 20;
 		boolean result = a < b;
@@ -130,8 +121,7 @@ public class Question1 {
 		
 		/* Q12条件演算子（三項演算子）を使用してください。
 		 * int 型の変数 x に 15 を代入 プログラムでは、「もし〇〇なら△△する」というような 条件によって処理を変えることがよくあります。
-		 * x が 10 以上なら "OK"、そうでなければ "NG" を出力
-		 */
+		 * x が 10 以上なら "OK"、そうでなければ "NG" を出力*/
 		int x = 15;
 		System.out.println((x>10)?"OK":"NG");
 		
@@ -139,8 +129,7 @@ public class Question1 {
 		System.out.println(""); 
 		
 		/* Q13 String text = "私はJavaが好きです。Javaは楽しい!";という
-		 * 文章の中にある 「Java」 を 「Python」 に置き換えて出力させてください。
-		 */
+		 * 文章の中にある 「Java」 を 「Python」 に置き換えて出力させてください。*/
 		String text = "私はJavaが好きです。Javaは楽しい！";
 		System.out.println(text.replace("Java","Python"));
 	}
