@@ -14,8 +14,8 @@ public class Question1 {
 		long longNum = 0;
 		float floatNum = 0.0f;
 		double doubleNum = 0.0;
-		char letter = ' ';
-		String letters ="";
+		char letter = '\u0000';
+		String letters ="null";
 		boolean isBoolean = false;
 		
 		// Q2 Q1で宣言した各型の変数に指定された値を代入してください
