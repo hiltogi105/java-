@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>HelloWorld_TogoYuki2</name>
+=======
+	<name>HelloWorld_TogoYuki</name>
+>>>>>>> branch 'TogoYuki' of https://github.com/hiltogi105/java-.git
 	<comment></comment>
 	<projects>
 	</projects>
