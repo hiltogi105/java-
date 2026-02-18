@@ -152,6 +152,7 @@ public class Question3 {
 			}
 		}
 		sc.close();
+		
 	}
 
 }
