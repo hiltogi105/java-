@@ -131,6 +131,7 @@ public class Question1 {
 		 * 文章の中にある 「Java」 を 「Python」 に置き換えて出力させてください。*/
 		String text = "私はJavaが好きです。Javaは楽しい！";
 		System.out.println(text.replace("Java","Python"));
+		
 	}
 
 }
