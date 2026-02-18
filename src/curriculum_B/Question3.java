@@ -18,10 +18,8 @@ public class Question3 {
 		
 		//Q2
 		System.out.println(" Q2");		
-		for(int i = 2;i <= 20;i++) {
-			if(i % 2 == 0) {
+		for(int i = 2;i <= 20;i +=2) {
 				System.out.println(i);
-			}
 		}
 		
 		
@@ -61,12 +59,10 @@ public class Question3 {
 		
 		//Q7
 		System.out.println(" Q7");	
-		count = 1;
+		count = 2;
 		while(count <=20) {
-			if(count % 2 == 0) {
 				System.out.println(count);
-			}
-			count++;
+			count+=2;
 		}
 				
 		//Q8
@@ -137,6 +133,9 @@ public class Question3 {
 		int tvStock = rand.nextInt(12); // 0~11
 		
 		for(String item:items) {
+			
+			item = item.trim().replace("　", "");
+			
 			switch(item) {
 				case "テレビ":
 				case "ディスプレイ":
