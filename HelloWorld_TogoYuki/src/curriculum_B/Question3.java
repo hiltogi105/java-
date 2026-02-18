@@ -152,7 +152,10 @@ public class Question3 {
 			}
 		}
 		sc.close();
+<<<<<<< HEAD
 		System.out.println("a");
+=======
+>>>>>>> branch 'TogoYuki' of https://github.com/hiltogi105/java-.git
 	}
 
 }
