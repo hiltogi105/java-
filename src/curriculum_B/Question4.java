@@ -91,7 +91,60 @@ public class Question4 {
 		//Q7
 		System.out.println(" Q7");
 		
+		int[][] array6 =  {{1, 2}, {3, 4}, {5, 6}}; 
+		for(int i = 0; i < array6.length;i++) {
+			for(int j = 0;j < array6[i].length;j++) {
+				System.out.println(array6[i][j]);
+			}
+		}
 		
+		//Q8
+		System.out.println(" Q8");
+		
+		int[][] array7 = {{10, 20, 30}, {40, 50, 60}, {70, 80, 90}}; 
+		int sum2 = 0;
+		for(int i = 0; i < array7.length;i++) {
+			for(int j = 0;j < array7[i].length;j++) {
+				sum2+= array7[i][j];
+			}
+		}
+		System.out.println(sum2);
+		
+		//Q9
+		System.out.println(" Q9");
+		
+		int[][] array8 = {{12, 15, 8}, {6, 19, 25}, {30, 2, 10}};
+		int max2 = array8[0][0];
+		int min2 = array8[0][0];
+		
+		for(int i = 0; i < array8.length;i++) {
+			for(int j = 0;j < array8[i].length;j++) {
+				if(max2 < array8[i][j] ){
+					max2 = array8[i][j];
+				}
+				if(min2 > array8[i][j]) {
+					min2 = array8[i][j];
+				}
+			}
+		}
+		
+		System.out.println("配列の最大値は" + max2);
+		System.out.println("配列の最小値は" + min2);		
+		
+		//Q10
+		System.out.println(" Q10");
+		
+		 int[][][] array9 = {{{1, 2}, {3, 4}}, {{5, 6}, {7, 8}}};
+		 for(int i = 0; i < array9.length;i++) {
+			for(int j = 0;j < array9[i].length;j++) {
+				for(int k = 0;k < array9[i][j].length;k++) {
+					System.out.println(array9[i][j][k]);
+				}
+			}
+		}
+		 
+		 
+		 
 	}
 
 }
