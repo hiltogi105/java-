@@ -41,7 +41,7 @@ public class Question4 {
 		System.out.println(" Q4");
 		
 		int[] array3 = {12, 7, 9, 21, 5, 18};
-		int max = array3[0];
+		int max = array3[0]; //入力ミス
 		int min = array3[0];
 		
 		for(int i = 0; i < array3.length; i++) {
@@ -149,7 +149,7 @@ public class Question4 {
 		}
 		 
 		 
-		 sc.close();
+		 sc.close(); //修正で追加
 	}
 
 }
