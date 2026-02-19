@@ -18,9 +18,14 @@ public class Question4 {
 		System.out.println(" Q2");
 		
 		int[] array2 = {10,20,30,40,50};
-		for(int i = array2.length;i > 0;i--) {
-			System.out.println(array2[i-1]);
+		for(int i = array2.length - 1;i >= 0;i--) {
+			System.out.println(array2[i]);
 		}
+		
+//		int[] array2 = {10,20,30,40,50};
+//		for(int i = array2.length;i > 0;i--) {
+//			System.out.println(array2[i-1]);
+//		}
 		
 		//Q3
 		System.out.println(" Q3");
@@ -36,8 +41,8 @@ public class Question4 {
 		System.out.println(" Q4");
 		
 		int[] array3 = {12, 7, 9, 21, 5, 18};
-		int max = array3[1];
-		int min = array3[1];
+		int max = array3[0];
+		int min = array3[0];
 		
 		for(int i = 0; i < array3.length; i++) {
 			if(max < array3[i]) {
@@ -144,7 +149,7 @@ public class Question4 {
 		}
 		 
 		 
-		 
+		 sc.close();
 	}
 
 }
