@@ -22,4 +22,5 @@ public class Daemon extends Character {
 
         br.close();
     }
+    
 }

@@ -1,6 +1,7 @@
 package curriculum.d;
 
 import java.io.FileWriter;
+import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Random;
 import java.util.Scanner;
@@ -20,23 +21,41 @@ public class Main {
         Character first;
         Character second;
 
-        if(player.sp > daemon.sp){
+//        if(player.sp > daemon.sp){
+//            first = player;
+//            second = daemon;
+//        }else if(player.sp < daemon.sp){
+//            first = daemon;
+//            second = player;
+//        }else{
+//            if(new Random().nextBoolean()){
+//                first = player;
+//                second = daemon;
+//            }else{
+//                first = daemon;
+//                second = player;
+//            }
+//        }
+        
+        if (player.getSp() > daemon.getSp()) {
             first = player;
             second = daemon;
-        }else if(player.sp < daemon.sp){
+
+        } else if (player.getSp() < daemon.getSp()) {
             first = daemon;
             second = player;
-        }else{
-            if(new Random().nextBoolean()){
+
+        } else {
+            if (new Random().nextBoolean()) {
                 first = player;
                 second = daemon;
-            }else{
+            } else {
                 first = daemon;
                 second = player;
             }
         }
 
-        PrintWriter pw = new PrintWriter(new FileWriter("battle_log.txt"));
+        try(PrintWriter pw = new PrintWriter(new FileWriter("battle_log.txt"))){
 
         while(player.isAlive() && daemon.isAlive()){
 
@@ -61,7 +80,8 @@ public class Main {
             pw.println("Daemonの勝利！");
         }
 
-        pw.close();
-        sc.close();
+        }catch(IOException e) {
+        	e.printStackTrace();
+        }
     }
 }

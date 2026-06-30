@@ -24,4 +24,8 @@ public class Character {
     public boolean isAlive() {
         return hp > 0;
     }
+    
+    public int getSp() {
+    	return sp;
+    }
 }

@@ -3,13 +3,15 @@ package curriculum.d;
 import java.util.Random;
 
 public class Player extends Character {
+	
+	private static final Random rand = new Random();
 
     public Player(String name) {
         super(
                 name,
-                new Random().nextInt(41) + 60,
-                new Random().nextInt(11) + 10,
-                new Random().nextInt(10) + 1
+                rand.nextInt(41) + 60,
+                rand.nextInt(11) + 10,
+                rand.nextInt(10) + 1
         );
     }
 }
